@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tide App v2</string>
+    <string-array name="location_array">
+        <item>Brighton</item>
+        <item>Florence</item>
+        <item>Wauna</item>
+    </string-array>
+    <string name="monthlable">input month(yyyy/mm/dd):</string>
+    <string name="showtide">Show Tide</string>
+    <string name="date">Date</string>
+    <string name="day">Day</string>
+    <string name="time">Time</string>
+    <string name="height">Height</string>
+    <string name="testcase">Test case : 2016/01/04</string>
+</resources>

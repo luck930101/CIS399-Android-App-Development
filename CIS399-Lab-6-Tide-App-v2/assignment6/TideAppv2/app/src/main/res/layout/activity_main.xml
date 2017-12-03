@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:paddingTop="40dp"
+    android:stretchColumns="*"
+    tools:context="edu.uoregon.yubo.tideappv2.MainActivity">
+    <TableRow>
+        <Spinner
+            android:id="@+id/locationSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_gravity="center"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="60dp"
+            android:paddingBottom="60dp"
+            android:layout_gravity="center"
+            android:text="@string/monthlable"/>
+        <EditText
+            android:id="@+id/dateedit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="60dp"
+            android:paddingBottom="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_gravity="center"
+            android:text="@string/showtide"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="200dp"
+            android:layout_span="2"
+            android:layout_gravity="center"
+            android:text="@string/testcase"/>
+    </TableRow>
+
+    
+
+
+</TableLayout>
