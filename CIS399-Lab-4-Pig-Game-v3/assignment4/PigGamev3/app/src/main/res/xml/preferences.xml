@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="win_score"
+        android:title="@string/setting_win_score_title"
+        android:summary="@string/setting_win_score_summary"
+        android:dialogTitle="@string/setting_win_score_title"
+        android:entries="@array/win_scores_key"
+        android:entryValues="@array/win_scores_value"
+        android:defaultValue="100"/>
+    <ListPreference
+        android:key="background"
+        android:title="@string/setting_background_title"
+        android:summary="@string/setting_background_summary"
+        android:dialogTitle="@string/setting_background_title"
+        android:entries="@array/background_key"
+        android:entryValues="@array/background_value"
+        android:defaultValue="mountain"/>
+    <ListPreference
+        android:key="sides"
+        android:title="@string/setting_sides_title"
+        android:summary="@string/setting_sides_summary"
+        android:dialogTitle="@string/setting_sides_title"
+        android:entries="@array/sides_key"
+        android:entryValues="@array/sides_value"
+        android:defaultValue="6"/>
+    <CheckBoxPreference
+        android:key="set_large_font"
+        android:title="@string/setting_font_title"
+        android:summary="@string/setting_font_summary"
+        android:defaultValue="false"/>
+
+</PreferenceScreen>
