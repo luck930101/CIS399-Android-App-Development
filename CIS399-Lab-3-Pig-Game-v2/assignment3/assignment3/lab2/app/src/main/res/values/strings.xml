@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Pig Game</string>
+    <string name="player_1">Player_1</string>
+    <string name="player_2">Player 2</string>
+    <string name="score">Score</string>
+    <string name="who">"'s turn"</string>
+    <string name="points_this_turn">Points for this turn</string>
+    <string name="roll_die">Roll Die</string>
+    <string name="end_turn">End Turn</string>
+    <string name="new_game">New Game</string>
+    <string name="setting">setting</string>
+    <string name="about">about</string>
+    <string name="label">p</string>
+    <string name="zero">0</string>
+    <string name="SettingsActivity_title">Settings</string>
+    <string name="setting_win_score_title">Set Win Score</string>
+    <string name="setting_win_score_summary">Set the maximum score to win</string>
+    <string name="setting_background_title">Set background</string>
+    <string name="setting_background_summary">Set a new background</string>
+    <string name="setting_sides_title">Set Sides</string>
+    <string name="setting_sides_summary">Set how many sides of a die(minimum 2 and maximum 6)</string>
+    <string name="setting_font_title">Set Large Font</string>
+    <string name="setting_font_summary">Increase the size of font </string>
+    <string-array name="win_scores_key">
+        <item>10  points</item>
+        <item>20  points</item>
+        <item>100 points</item>
+    </string-array>
+    <string-array name="win_scores_value">
+        <item>10</item>
+        <item>20</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="background_key">
+        <item>ocean</item>
+        <item>flower</item>
+        <item>mountain</item>
+        <item>sky</item>
+    </string-array>
+    <string-array name="background_value">
+        <item>ocean</item>
+        <item>flower</item>
+        <item>mountain</item>
+        <item>sky</item>
+    </string-array>
+    <string-array name="sides_key">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="sides_value">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+</resources>
