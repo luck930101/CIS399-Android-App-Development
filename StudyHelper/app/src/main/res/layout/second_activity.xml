@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/background"
+        android:background="@drawable/sky"/>
+
+    <android.support.v7.widget.Toolbar
+        android:id = "@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:stretchColumns="*">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:paddingTop="50dp"
+                android:layout_span="2"
+                android:text="@string/study_label"/>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:id="@+id/timeeditview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="50dp"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="50dp"
+                android:textSize="20sp"
+                android:text="@string/mins"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/countertextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="50dp"
+                android:paddingBottom="20dp"
+                android:textSize="80sp"
+                android:layout_span="2"
+                android:text="@string/resetzero"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/studynow"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_span="2"
+                android:elevation="4dp"
+                android:text="@string/study_now_button"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/secondchecktree"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_span="2"
+                android:visibility="invisible"
+                android:elevation="4dp"
+                android:text="@string/check_my_sapling_button2"/>
+        </TableRow>
+    </TableLayout>
+
+
+
+</FrameLayout>
